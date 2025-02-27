@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.Dicto</string>
+    <key>CFBundleName</key>
+    <string>Dicto</string>
+    <key>CFBundleDisplayName</key>
+    <string>Dicto</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2025. All rights reserved.</string>
+    
+    <!-- Privacy usage descriptions -->
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>Dicto needs access to speech recognition to transcribe your spoken words into text.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Dicto needs microphone access to capture your voice for speech-to-text transcription.</string>
+</dict>
+</plist> 
